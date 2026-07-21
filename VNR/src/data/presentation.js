@@ -1,10 +1,6 @@
 // =============================================================
 // NỘI DUNG BÀI THUYẾT TRÌNH - LỊCH SỬ ĐẢNG CSVN
 // Đảng lãnh đạo Việt Nam hội nhập và phát triển (2001 – nay)
-// Phân chia cho 3 NGƯỜI THUYẾT TRÌNH:
-//   • Người A: Phần 1 (Bối cảnh) + Phần 2 (Hội nhập quốc tế)
-//   • Người B: Phần 3 (Phát triển nội lực)
-//   • Người C: Phần 4 (Vị thế) + Phần 5 (Bài học & Tổng kết)
 // =============================================================
 
 export const META = {
@@ -12,35 +8,13 @@ export const META = {
   subtitle: 'Chương 3 – Đảng lãnh đạo công cuộc đổi mới và hội nhập quốc tế',
   group: 'Bài thuyết trình môn Lịch sử Đảng Cộng sản Việt Nam',
   course: 'Giai đoạn 2001 – nay · Lãnh đạo công cuộc đổi mới, đẩy mạnh công nghiệp hóa, hiện đại hóa và hội nhập quốc tế',
-  members: [
-    {
-      id: 'A',
-      name: 'Người A',
-      role: 'Bối cảnh & Hội nhập quốc tế',
-      parts: [1, 2],
-    },
-    {
-      id: 'B',
-      name: 'Người B',
-      role: 'Phát triển nội lực',
-      parts: [3],
-    },
-    {
-      id: 'C',
-      name: 'Người C',
-      role: 'Vị thế, Bài học & Tổng kết',
-      parts: [4, 5],
-    },
-  ],
 };
 
 // =============================================================
 // PHẦN 1 - BỐI CẢNH XUẤT PHÁT ĐIỂM
-// Người A trình bày
 // =============================================================
 export const PART_1 = {
   id: 1,
-  speaker: 'A',
   number: '01',
   anchor: 'phan-1',
   label: 'Bối cảnh xuất phát điểm',
@@ -60,7 +34,7 @@ export const PART_1 = {
     {
       kind: 'quote',
       text: 'Hiểu bối cảnh đó, ta mới thấy hết giá trị của mỗi bước đi hội nhập mà Đảng và nhân dân ta đã lựa chọn suốt hơn 40 năm qua.',
-      source: 'Tinh thần dẫn dắt của Người A',
+      source: 'Tinh thần dẫn dắt của phần trình bày',
     },
   ],
   highlight: {
@@ -71,11 +45,9 @@ export const PART_1 = {
 
 // =============================================================
 // PHẦN 2 - QUÁ TRÌNH HỘI NHẬP QUỐC TẾ
-// Người A trình bày
 // =============================================================
 export const PART_2 = {
   id: 2,
-  speaker: 'A',
   number: '02',
   anchor: 'phan-2',
   label: 'Quá trình hội nhập quốc tế',
@@ -121,11 +93,9 @@ export const PART_2 = {
 
 // =============================================================
 // PHẦN 3 - PHÁT TRIỂN NỘI LỰC
-// Người B trình bày
 // =============================================================
 export const PART_3 = {
   id: 3,
-  speaker: 'B',
   number: '03',
   anchor: 'phan-3',
   label: 'Phát triển nội lực',
@@ -168,11 +138,9 @@ export const PART_3 = {
 
 // =============================================================
 // PHẦN 4 - NÂNG TẦM VỊ THẾ ĐỐI NGOẠI
-// Người C trình bày
 // =============================================================
 export const PART_4 = {
   id: 4,
-  speaker: 'C',
   number: '04',
   anchor: 'phan-4',
   label: 'Nâng tầm vị thế đối ngoại',
@@ -195,11 +163,9 @@ export const PART_4 = {
 
 // =============================================================
 // PHẦN 5 - BÀI HỌC RÚT RA & TỔNG KẾT
-// Người C trình bày
 // =============================================================
 export const PART_5 = {
   id: 5,
-  speaker: 'C',
   number: '05',
   anchor: 'phan-5',
   label: 'Bài học rút ra',

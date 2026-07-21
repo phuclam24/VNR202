@@ -150,7 +150,7 @@ export const PartSection3 = () => {
             </div>
           </div>
           <div className="col-img">
-            <SmartImage image={PART_IMAGES[3]} alt="Ruộng bậc thang Sa Pa" />
+            <SmartImage image={PART_IMAGES[3]} alt="Khu công nghệ cao Hòa Lạc" />
           </div>
         </div>
 
